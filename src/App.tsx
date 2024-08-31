@@ -2,14 +2,16 @@
 // import reactLogo from './assets/react.svg'
 // import viteLogo from '/vite.svg'
 import "./App.css";
-import { Circle } from "./components/circle";
+import TestSolar from "./components/orbiter";
 
 function App() {
   // const [count, setCount] = useState(0)
 
   return (
     <>
-      <Circle />
+      {/* <SolarSystem />
+       */}
+      <TestSolar />
     </>
   );
 }
